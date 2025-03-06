@@ -1,4 +1,3 @@
-/* Header */
 header {
     background-color: var(--primary-color);
     color: var(--text-light-color);
@@ -8,14 +7,12 @@ header {
     position: relative;
 }
 
-/* Notification Icon Position */
 #notification-container {
     position: absolute;
     top: 1rem;
     right: 1rem;
 }
 
-/* Main Container */
 main {
     padding: 1rem;
     display: grid;
@@ -43,7 +40,6 @@ main {
     }
 }
 
-/* Section Titles */
 section h2, section h3 {
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 0.5rem;
@@ -64,7 +60,6 @@ section h2::after, section h3::after {
     background-color: var(--accent-color);
 }
 
-/* Flexbox para Relatórios no Dashboard */
 #reports {
     display: flex;
     flex-direction: column;
@@ -89,7 +84,6 @@ section h2::after, section h3::after {
     }
 }
 
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
     width: 12px;
 }
