@@ -12,7 +12,7 @@ table th, table td {
     padding: 0.75rem;
     text-align: left;
     transition: background-color var(--transition-speed);
-    color: #000000; /* Texto preto */
+    color: #000000;
 }
 
 table th {
