@@ -1,4 +1,3 @@
-/* Notification Icon */
 #notification-icon {
     position: relative;
     cursor: pointer;
@@ -17,7 +16,6 @@
     font-size: 0.8rem;
 }
 
-/* Notification Dropdown */
 #notification-dropdown {
     display: none;
     position: absolute;
