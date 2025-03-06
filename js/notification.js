@@ -37,12 +37,10 @@ notificationIcon.addEventListener('click', (e) => {
     notificationDropdown.classList.toggle('visible');
 });
 
-// Função para fechar o dropdown de notificações
 const closeNotificationDropdown = (e) => {
     if (!notificationDropdown.contains(e.target) && !notificationIcon.contains(e.target)) {
         notificationDropdown.classList.remove('visible');
     }
 };
 
-// Adiciona o evento de clique no documento
 document.addEventListener('click', closeNotificationDropdown);
