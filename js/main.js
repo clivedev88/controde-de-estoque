@@ -57,7 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     };
 
-    // Modal
     const modal = document.getElementById('modal');
     const closeButton = document.querySelector('.close-button');
 
@@ -71,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
-    // Modal de Confirmação
     const confirmModal = document.getElementById('confirm-modal');
     const confirmMessage = document.getElementById('confirm-message');
     const confirmYes = document.getElementById('confirm-yes');
