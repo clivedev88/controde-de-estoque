@@ -1,4 +1,3 @@
-/* Dark Mode */
 @media (prefers-color-scheme: dark) {
     :root {
         --primary-color: #fff;
