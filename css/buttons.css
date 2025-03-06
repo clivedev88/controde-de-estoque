@@ -1,4 +1,3 @@
-/* Button Styles */
 button {
     background-color: var(--primary-color);
     color: var(--text-light-color);
@@ -20,7 +19,6 @@ button:active {
     transform: scale(0.95);
 }
 
-/* Estilos para ícones */
 .icon-button {
     background: none;
     border: none;
